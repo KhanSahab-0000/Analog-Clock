@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: radial-gradient(circle at 18.7% 37.8%, rgb(250, 250, 250) 0%, rgb(225, 234, 238) 90%);
+}
+
+.h1-1 {
+    color: rgb(29, 27, 27);
+    text-align: center;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 40px;
+    padding: 10px 50px 0 50px;
+    padding: 0.6em 0;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 10px 0px 7px rgba(0, 0, 0, 0.4);
+}
+
+#clock-container {
+    position: relative;
+    height: 40vw;
+    width: 40vw;
+    background-image: url(clock.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: auto;
+}
+
+#hour, #minute, #second {
+    background-color: rgb(19, 18, 18);
+    border-radius: 10px;
+    position: absolute;
+    transform-origin: bottom;
+}
+
+#hour {
+    width: 1.7%;
+    height: 24%;
+    top: 26.4%;
+    left: 49.05%;
+    opacity: 0.8;
+}
+
+#minute {
+    width: 1.5%;
+    height: 34%;
+    top: 16.4%;
+    left: 49.12%;
+    opacity: 0.8;
+}
+
+#second {
+    background-color: rgb(34, 30, 30);
+    width: 0.8%;
+    height: 41%;
+    top: 9.4%;
+    left: 49.4%;
+    opacity: 0.8;
+}
+
+.p1-1 {
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 0.6em 0;
+    text-transform: uppercase;
+    text-rendering: optimizeLegibility;
+    text-shadow: 0 1px 0 rgba(12, 11, 11, 0.4);
+}
